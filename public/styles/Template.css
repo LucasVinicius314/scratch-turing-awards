@@ -38,10 +38,6 @@
     border-color: #696969 !important;
 }
 
-.header p a{
-    color: #696969;
-}
-
 #menuToggle{
     display: none;
 }
@@ -70,11 +66,6 @@
 
 .navbar.bg-light{
     background-color: transparent !important;
-}
-
-.menu p a{
-    font-size: 1.1rem;
-    text-decoration: none;
 }
 
 /* Fim Header */
