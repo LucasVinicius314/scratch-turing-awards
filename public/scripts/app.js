@@ -7,12 +7,12 @@ function leInfo (){
         objInfo = JSON.parse (strInfo);
     }else {
         objInfo = { cursos: [ 
-            {curso: "Curso 1", trait: "caracteristica1", rating: "Muito Positiva"}, 
-            {curso: "Curso 2", trait: "caracteristica2", rating: "Negativa"}, 
-            {curso: "Curso 3", trait: "caracteristica3", rating: "Ligeiramente Positiva"},
-            {curso: "Curso 4", trait: "caracteristica4", rating: "Positiva"},
-            {curso: "Curso 5", trait: "caracteristica5", rating: "Neutra"},
-            {curso: "Curso 6", trait: "caracteristica6", rating: "Muito Negativa"}
+            {curso: "Física Computacional", trait: "Ciências Exatas", rating: "Muito Positiva"}, 
+            {curso: "Ciência da Computação", trait: "Ciências Exatas", rating: "Negativa"}, 
+            {curso: "Medicina Veterinária", trait: "Ciências Biológicas", rating: "Ligeiramente Positiva"},
+            {curso: "Ciências Contábeis ", trait: "Ciências Exatas", rating: "Positiva"},
+            {curso: "Direito", trait: "Ciências Sociais", rating: "Neutra"},
+            {curso: "Administração", trait: "Ciências Sociais", rating: "Muito Negativa"}
         ]}
     }
 
