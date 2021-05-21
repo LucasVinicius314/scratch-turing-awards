@@ -1,19 +1,24 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+
+`ESCOLHA PROFISSIONAL - PROFISSA`
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`
+`CIÊNCIAS DA COMPUTAÇÃO`
 
-`SEMESTRE`
+`1° SEMESTRE`
 
 ## Participantes
 
-Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+Os membros do grupo são:
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
+- Artur Kazuo Peixoto Guimarães Fuzikawa
+- Gabriel Terra Álvares da Silva
+- João Pedro Barroso da Silva Neto
+- João Vitor Reis Vilela de Castro
+- Lucas Aquino dos Santos
+- Lucas Vinícius dos Santos Gonçalves Coelho
+- Rodrigo Paiva Fentanes
 
 # Estrutura do Documento
 
