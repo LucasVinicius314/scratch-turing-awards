@@ -1,0 +1,57 @@
+:root {
+  --theme: rgba(76, 233, 215, 0.61);
+  --theme-dark: rgba(07, 109, 107, 1);
+  --theme-strong: rgba(67, 209, 207, 1);
+}
+
+.bg-theme {
+  background-color: var(--theme);
+}
+
+/* btn-comecar-teste */
+
+#btn-comecar-teste {
+  border-radius: 100px;
+  box-shadow: 10px black 1;
+}
+
+#btn-comecar-teste:hover {
+  background-color: var(--theme-strong);
+}
+
+#btn-comecar-teste:active {
+  background-color: var(--theme-dark);
+}
+
+/* spinner */
+
+#spinner {
+  height: 50%;
+}
+
+#spinner,
+#spinner * {
+  pointer-events: none;
+}
+
+/* pergunta-1-wrapper */
+
+#pergunta-1-wrapper > div {
+  bottom: 0;
+  margin: 10px;
+  position: relative;
+  transition: all 0.1s ease-in-out;
+  width: 140px;
+}
+
+#pergunta-1-wrapper > div:hover {
+  bottom: 5px;
+}
+
+#pergunta-1-wrapper > div small {
+  pointer-events: none;
+}
+
+#pergunta-1-wrapper > div .mdi {
+  font-size: 50px;
+}

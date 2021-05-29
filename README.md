@@ -10,6 +10,7 @@ Este projeto adota a seguinte estrutura de diretórios:
   - `assets`
   - `scripts`
   - `styles`
+  - `vendor`
 - `src`
 
 ## docs
@@ -33,8 +34,9 @@ JavaScript:
 
 - O diretório `assets` é utilizado para armazenar imagens, fontes e
   outros recursos utilizados no projeto.
-- O diretório `scripts` armazena os arquivos JavaScripts do projeto
+- O diretório `scripts` armazena os arquivos JavaScript do projeto
 - O diretório `styles` é utilizado para os arquivos CSS
+- O diretório `vendor` é utilizado para os arquivos de bibliotecas que são importados pelo projeto
 
 ## src
 
