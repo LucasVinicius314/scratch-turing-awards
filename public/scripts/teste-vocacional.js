@@ -536,7 +536,7 @@ class Teste {
           },
         },
         {
-          nome: 'Português',
+          nome: 'Gramática',
           peso: {
             arte: 0,
             ciencia: 0,
