@@ -12,6 +12,9 @@
     color: black !important;
     text-decoration: none;
 }
+.ciencia:hover {
+    background-color: rgba(67, 209, 207, 0.35);
+  }
 .header ul{
     list-style: none;
 }
