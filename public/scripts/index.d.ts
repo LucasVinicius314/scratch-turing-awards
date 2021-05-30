@@ -1,3 +1,5 @@
+/// <reference path="../vendor/jquery-3.5.1.js" />
+
 export type Categoria = {
   nome: string
 }
@@ -19,4 +21,17 @@ export type Peso = {
   matematica: number
   saude: number
   tecnologia: number
+}
+
+export type Pergunta = {
+  descricao: string
+  escolhas: { [key: string]: string }
+  alternativas: Alternativa[]
+  titulo: string
+  wrapper: JQuery<HTMLElement>
+}
+
+export type Alternativa = {
+  nome: string
+  peso: Peso
 }
