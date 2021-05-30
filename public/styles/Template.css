@@ -8,7 +8,10 @@
     max-width: 100%;
     background-color: rgba(67, 209, 207, 0.35);
 }
-
+.ciencia a{
+    color: black !important;
+    text-decoration: none;
+}
 .header ul{
     list-style: none;
 }
