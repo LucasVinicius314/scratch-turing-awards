@@ -1,0 +1,33 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#panel {
+  bottom: 0px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+#panel:hover {
+  bottom: 4px;
+  transform: scale3d(1.03, 1.03, 1.03);
+}
+
+.paragraph {
+  line-height: 1.8;
+}
+
+.turing {
+  bottom: 0px;
+  position: relative;
+  transition: all 0.1s ease-in-out;
+}
+
+.turing:hover {
+  bottom: 4px;
+}
+
+.turing > .card-img-top {
+  height: 300px;
+  object-fit: cover;
+}

@@ -1,356 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/Template.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/28d9d72d98.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <title>Escolha Da Profissão</title>
-    <script>
-        window.onload = () =>{
-            ciencia.onclick = () => {
-
-            }
-        }
-    </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Jogo no scratch com a temática Turing Awards" />
+  <meta name="author" content="Black João & Sure" />
+  <title>Scratch Prêmio Turing</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.jpg" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
+
 <body>
-
-    <!-- Header -->
-
-    <header class="header">
-        <img src="assets/img/logo desktop 1 final.png" class="logo">
-        <nav class="menu">
-            <input type="checkbox" id="menuToggle" >
-            <label for="menuToggle" class="menu-icon">
-                <i class="fa fa-bars"></i>
-                <i class="fa fa-times-circle"></i>
-            </label>
-            <ul class="menu1">
-                <li><a class="menu_transition" href="/">Página Inicial</a></li>
-                <li><a class="menu_transition" href="Sobre.html">Sobre</a></li>
-                <li><a class="menu_transition" href="Top.html">Top Cursos</a></li>
-                <li><a class="menu_transition" href="#">Fale Conosco</a></li>
-                <li class="navbarp">
-                    <nav class="navbar navbar-light bg-light">
-                        <form class="form-inline" action="./Busca.html">
-                        <input class="form-control mr-sm-2" type="search" name="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </nav>
-                </li>
-                <li>
-                    <div class="button1">
-                        <a class="button" href="Cadastro.html"><button type="button" class="btn btn-primary">Cadastro</button></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="button1">
-                        <a class="button" href="Login.html"><button type="button" class="btn btn-primary">Login</button></a>
-                    </div>
-                </li>
-            </ul>    
-        </nav>
-    </header>
-
-    <!-- Fim Header -->
-
-
-
-    <!-- Main -->
-
-    <main class="container main">
-
-        <section class="row section1">
-            <div class="col-12 col-xl-8 avaliacoes">
-                <div class="container varias-avals">
-                    <div class="row tituloAval">
-                        <h1>Melhores Avaliações</h1>
-                    </div>
-                    <div class="row aval">
-                        <div class="col-12 col-xl-4 nomeDoCurso">
-                            <p>
-                                Física Computacional 
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 ramificacoes">
-                            <p>
-                                3-Ramificações
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 rating">
-                            <div class="starRating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row aval ciencia" onclick="location = 'leituraCurso.html?curso=ciencias'">
-                        <div class="col-12 col-xl-4 nomeDoCurso">
-                            <p>
-                                    Ciência da Computação
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 ramificacoes">
-                            <p>
-                                4-Ramificações
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 rating">
-                            <div class="starRating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row aval">
-                        <div class="col-12 col-xl-4 nomeDoCurso">
-                            <p>
-                                Medicina veterinária 
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 ramificacoes">
-                            <p>
-                                3-ramificações
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 rating">
-                            <div class="starRating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row button2">
-                        <a class="button" href="#"><button type="button" class="btn btn-primary">+ Mais Avaliações</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-1">
-
-            </div>
-
-            <div class="col-12 col-xl-2 teste">
-                <div class="container testeVoc">
-                    <div class="row carinhaVoc">
-                        <img src="assets/img/carinha voc.JPG" class="carinha">
-                    </div>
-                    <div class="row textoVoc">
-                        <p>
-                            Qual será
-                        </p>
-                        <p>
-                            o melhor curso
-                        </p>
-                        <p>
-                            para você?
-                        </p>
-                    </div>
-                    <div class="row botãoVoc">
-                        <div class="row buttonVoc">
-                            <a class="button" href="teste-vocacional.html"><button type="button" class="btn btn-primary">Teste Vocacional</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-1">
-
-            </div>
-        </section>
-
-        <!---------------------------------------------------------------------------------------------------------------------------------------->
-
-        <section class="row section1">
-            <div class="col-12 col-xl-8 avaliacoes">
-                <div class="container varias-avals">
-                    <div class="row tituloAval">
-                        <h1>Melhores Remunerações</h1>
-                    </div>
-                    <div class="row aval">
-                        <div class="col-12 col-xl-4 nomeDoCurso">
-                            <p>
-                                Física Computacional 
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 ramificacoes">
-                            <p>
-                                3-Ramificações
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 rating">
-                            <p>
-                                Média: R$5000,00
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row aval ciencia" onclick="location = 'leituraCurso.html?curso=ciencias'">
-                        
-                        <div class="col-12 col-xl-4 nomeDoCurso ">
-                            <p>
-                                
-                                Ciência da Computação
-                                
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 ramificacoes">
-                            <p>
-                                4-Ramificações
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 rating">
-                            <p>
-                                Média: R$5500,00
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row aval">
-                        <div class="col-12 col-xl-4 nomeDoCurso">
-                            <p>
-                                Medicina veterinária 
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 ramificacoes">
-                            <p>
-                                3-ramificações
-                            </p>
-                        </div>
-                        <div class="col-xl-1 traçoEntre">
-                            <p>
-                                -
-                            </p>
-                        </div>
-                        <div class="col-12 col-xl-3 rating">
-                            <p>
-                                Média: R$6000,00
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row button2">
-                        <a class="button" href="#"><button type="button" class="btn btn-primary">+ Mais Remunerações</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-1">
-
-            </div>
-
-            <div class="col-12 col-xl-2 teste">
-                <div class="container testeVoc">
-                    <div class="row carinhaVoc">
-                        <img src="assets/img/carinha voc.JPG" class="carinha">
-                    </div>
-                    <div class="row textoVoc">
-                        <p>
-                            Entre no Fórum
-                        </p>
-                        <p>
-                            e tire as duas
-                        </p>
-                        <p>
-                            dúvidas
-                        </p>
-                    </div>
-                    <div class="row botãoVoc">
-                        <div class="row buttonVoc">
-                            <a class="button" href="#"><button type="button" class="btn btn-primary">Fórum</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-1">
-
-            </div>
-        </section>
-
-
-    </main>
-
-    <!-- Fim Main -->
-
-
-
-    <!-- Footer -->
-
-    <footer class="container footer">
-        <p>Copyright &copy 2021 - Profissa. Todos os Direitos Reservados</p>
-    </footer>
-
-    <!-- Fim Footer -->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
+  <!-- Responsive navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+      <a class="navbar-brand" href="#!">Scratch Prêmio Turing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Jogo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Content-->
+  <div class="container px-4 px-lg-5">
+    <!-- Heading Row-->
+    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+      <div class="col-lg-7 d-flex justify-content-center mb-3">
+        <iframe src="https://scratch.mit.edu/projects/499508978/embed" allowtransparency="true" width="485" height="402"
+          frameborder="0" scrolling="no" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-5 mb-3 mt-3">
+        <h1 class="font-weight-light">Prêmio Turing</h1>
+        <p>Jogue o nosso jogo e descubra fatos interessantes e curiosidades sobre os ganhadores do Prêmio Turing!</p>
+      </div>
+    </div>
+    <!-- Call to Action-->
+    <div id="container">
+      <div id="panel" class="card bg-light my-5 py-4 shadow">
+        <div class="card-body">
+          <h2 class="display-4 mb-5 text-center">O Prêmio Turing</h2>
+          <hr class="px-5 mx-5">
+          <p class="text-center pt-4 paragraph">O Prêmio Turing é concedido anualmente pela Association for
+            Computing
+            Machinery (ACM) para uma pessoa selecionada por contribuições à computação. As contribuições devem ser
+            duradouras e fundamentais no campo computacional.</p>
+          <p class="text-center pb-4 paragraph">A denominação do prêmio é homenagem a Alan Mathison Turing, um
+            matemático britânico considerado um dos pais da ciência da computação moderna. O prêmio é conhecido como o
+            "Prêmio Nobel da computação". É patrocinado pela Intel Corporation e acompanhado atualmente por um prêmio
+            monetário no valor de 250 mil USD. A ACM anunciou em 13 de novembro de 2014 que a premiação foi aumentada
+            para
+            1 milhão de USD através de recursos fornecidos pelo Google.</p>
+          <hr class="px-5 mx-5">
+          <a class="btn btn-link btn-sm d-block text-decoration-none mt-4 pb-0"
+            href="https://pt.wikipedia.org/wiki/Marvin_Minsky" target="_blank">Fonte:
+            Wikipedia</a>
+        </div>
+      </div>
+    </div>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100 shadow turing">
+          <img class="card-img-top" src="assets/marvin.jpg" alt="Marvin">
+          <div class="card-body">
+            <h2 class="card-title">Marvin Minsky</h2>
+            <hr>
+            <p class="card-text">Minski foi co-fundador do Laboratório de Inteligência Artificial do Instituto de
+              Tecnologia de Massachusetts (MIT) e autor de diversos artigos e livros sobre o tema e suas implicações
+              filosóficas.</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary d-block" href="https://pt.wikipedia.org/wiki/Marvin_Minsky"
+              target="_blank">Ver mais coisas legais</a></div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100 shadow turing">
+          <img class="card-img-top" src="assets/john.jpg" alt="John">
+          <div class="card-body">
+            <h2 class="card-title">John McCarthy</h2>
+            <hr>
+            <p class="card-text">Conhecido pelos estudos no campo da inteligência artificial e por ser o criador da
+              linguagem de programação Lisp. Recebeu o Prêmio Turing de 1972 e a Medalha Nacional de Ciências dos
+              Estados Unidos de 1991.</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary d-block" href="https://pt.wikipedia.org/wiki/John_McCarthy"
+              target="_blank">Ver mais coisas legais</a></div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100 shadow turing">
+          <img class="card-img-top" src="assets/herbert.jpg" alt="Herbert">
+          <div class="card-body">
+            <h2 class="card-title">Herbert A. Simon</h2>
+            <hr>
+            <p class="card-text">Foi um pesquisador nos campos de psicologia cognitiva, informática, administração
+              pública, sociologia econômica e filosofia. Por vezes, descreveram-no como um polímata.</p>
+          </div>
+          <div class="card-footer"><a class="btn btn-primary d-block" href="https://pt.wikipedia.org/wiki/Herbert_Simon"
+              target="_blank">Ver mais coisas legais</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer-->
+  <footer class="py-5 bg-dark">
+    <div class="container px-4 px-lg-5">
+      <p class="m-0 text-center text-white">Copyright &copy; Black João & Sure, 2021</p>
+    </div>
+  </footer>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>

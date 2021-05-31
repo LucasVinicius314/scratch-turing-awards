@@ -1,8 +1,8 @@
 {
-  "name": "tiaw-ppl-cc-m-20211-grupo-9-escolha-profissional",
+  "name": "scratch-turing-awards",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20211-grupo-9-escolha-profissional.git",
+  "repository": "https://github.com/LucasVinicius314/scratch-turing-awards.git",
   "author": "Lucas Coelho <58010418+LucasVinicius314@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
