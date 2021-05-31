@@ -31,3 +31,23 @@
   height: 300px;
   object-fit: cover;
 }
+
+.slide-down > span {
+  position: relative;
+  top: 0px;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide-down:hover > span {
+  top: 4px;
+}
+
+.slide-right > span {
+  left: 0px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide-right:hover > span {
+  left: 4px;
+}
